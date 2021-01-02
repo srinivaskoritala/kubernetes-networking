@@ -1,0 +1,4 @@
+There are bunch of kubernetes networking models present out there.
+Which one do you consider for your pod to pod communication? what are the design considerations?
+
+I personnally like Calico mainly because of eBPF filters in dataplane at the kernel level.
